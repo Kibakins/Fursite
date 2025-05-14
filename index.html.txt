@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furry Tales - Bi-Yearly Adult Magazine</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Subscribe to Furry Tales, a bi-yearly adult furry magazine featuring vibrant art, stories, and community spotlights.">
+</head>
+<body>
+    <!-- Age Verification Notice -->
+    <div class="age-notice">
+        <p>This site contains adult content. You must be 18+ to proceed.</p>
+        <button onclick="document.querySelector('.age-notice').style.display='none'">I am 18+</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <h1>Furry Tales</h1>
+        </div>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h2>Explore Furry Tales</h2>
+        <p>A bi-yearly magazine celebrating adult furry art, stories, and community. Subscribe for exclusive content!</p>
+        <a href="subscribe.html" class="cta-button">Subscribe Now</a>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h3>About Furry Tales</h3>
+        <p>Furry Tales is a bi-yearly magazine for the adult furry community, featuring bold artwork, erotic fiction, and artist spotlights. Published in Spring and Fall, each issue is a vibrant celebration of creativity and passion.</p>
+        <img src="magazine-cover.jpg" alt="Furry Tales Cover" class="magazine-img">
+    </section>
+
+    <!-- Subscription Section -->
+    <section class="subscribe">
+        <h3>Join the Pack</h3>
+        <p>Get both issues delivered for $[price]/year or go digital for $[price].</p>
+        <form action="[your-form-backend]" method="POST" class="subscribe-form">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="address" placeholder="Shipping Address" required>
+            <button type="submit" class="cta-button">Subscribe</button>
+        </form>
+        <p>Digital subscriptions available! <a href="subscribe.html">Learn more</a>.</p>
+    </section>
+
+    <!-- Gallery Teaser -->
+    <section class="gallery-teaser">
+        <h3>Peek at Our Art</h3>
+        <div class="sample-grid">
+            <div class="sample-item">
+                <img src="art1.jpg" alt="Furry Art 1">
+                <p>Character by [Artist Name]</p>
+            </div>
+            <div class="sample-item">
+                <img src="art2.jpg" alt="Furry Art 2">
+                <p>Scene by [Artist Name]</p>
+            </div>
+        </div>
+        <a href="gallery.html" class="cta-button">View Full Gallery</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Furry Tales. All rights reserved. 18+ only.</p>
+        <p><a href="contact.html">Contact Us</a> | <a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a></p>
+    </footer>
+</body>
+</html>

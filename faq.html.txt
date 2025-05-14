@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Furry Tales</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Frequently Asked Questions about Furry Tales, the bi-yearly adult furry magazine.">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <h1>Furry Tales</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html" class="active">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>What is Furry Tales?</h3>
+            <p>Furry Tales is a bi-yearly adult furry magazine featuring erotic art, fiction, and community spotlights. It’s published in Spring and Fall, available in print and digital formats.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Who can subscribe?</h3>
+            <p>You must be 18+ to subscribe due to the adult content. We ship worldwide, with digital options available.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What’s in each issue?</h3>
+            <p>Each issue includes full-color artwork, short stories, artist interviews, and community features, all celebrating adult furry themes.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How much is a subscription?</h3>
+            <p>Print subscriptions are $[price]/year (two issues), and digital subscriptions are $[price]/year. See our <a href="subscribe.html">Subscribe page</a> for details.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Is the content explicit?</h3>
+            <p>Yes, Furry Tales includes adult themes and explicit content, tastefully presented. All material is created by consenting artists for an 18+ audience.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Can I submit art or stories?</h3>
+            <p>Yes! We accept submissions from furry artists and writers. Email submissions@[yourdomain].com for guidelines.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How is my privacy protected?</h3>
+            <p>We use secure payment processors and never share your personal information. See our <a href="privacy.html">Privacy Policy</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Furry Tales. All rights reserved. 18+ only.</p>
+        <p><a href="contact.html">Contact Us</a> | <a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a></p>
+    </footer>
+</body>
+</html>

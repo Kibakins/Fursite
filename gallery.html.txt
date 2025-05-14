@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Furry Tales</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Explore artwork from Furry Tales, the bi-yearly adult furry magazine.">
+</head>
+<body>
+    <!-- Age Verification Notice -->
+    <div class="age-notice">
+        <p>This gallery contains adult content. You must be 18+ to proceed.</p>
+        <button onclick="document.querySelector('.age-notice').style.display='none'">I am 18+</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <h1>Furry Tales</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>Art Gallery</h2>
+        <p>Enjoy a taste of the vibrant artwork in Furry Tales. Subscribe to see the full collection!</p>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="art1.jpg" alt="Furry Art 1">
+                <p>"[Title]" by [Artist Name]</p>
+            </div>
+            <div class="gallery-item">
+                <img src="art2.jpg" alt="Furry Art 2">
+                <p>"[Title]" by [Artist Name]</p>
+            </div>
+            <div class="gallery-item">
+                <img src="art3.jpg" alt="Furry Art 3">
+                <p>"[Title]" by [Artist Name]</p>
+            </div>
+            <div class="gallery-item">
+                <img src="art4.jpg" alt="Furry Art 4">
+                <p>"[Title]" by [Artist Name]</p>
+            </div>
+        </div>
+        <a href="subscribe.html" class="cta-button">Subscribe for More</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Furry Tales. All rights reserved. 18+ only.</p>
+        <p><a href="contact.html">Contact Us</a> | <a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a></p>
+    </footer>
+</body>
+</html>
